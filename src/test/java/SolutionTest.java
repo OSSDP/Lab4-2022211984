@@ -24,8 +24,8 @@ public class SolutionTest {
         assertArrayEquals(new int[]{1, 1, 1, 1}, nums3);
 
         // Test case 4: Array with two colors
-//        int[] nums4 = {2, 1, 2, 1};
-        int[] nums4 = {2};
+        int[] nums4 = {2, 1, 2, 1};
+//        int[] nums4 = {2};
         solution.sortColors(nums4);
         assertArrayEquals(new int[]{1, 1, 2, 2}, nums4);
 
